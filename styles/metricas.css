@@ -1,0 +1,53 @@
+.secao__metricas {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    cursor:default;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 ;
+    padding-left: 3rem;
+    margin: 1rem;
+    
+
+    
+}
+
+
+
+.divisao__metricas {
+    margin:3rem;
+    padding: 0.5rem;
+    border: solid 1px transparent;
+}
+
+.divisao__metricas:hover {
+    border: solid 1px var(--cor-de-destaque);
+}
+    
+
+
+
+.metricas__titulo {
+    color: var(--cor-de-destaque);
+    font-size: 4rem ;
+    font-weight: 600;
+}
+
+
+.metricas__sub-titulo {
+    margin: 2rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--cor-de-texto);
+}
+
+.metricas__paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-de-paragrafo);
+}
+
+
+

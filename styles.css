@@ -1,0 +1,30 @@
+@import url("styles/navegação.css");
+@import url("styles/header.css");
+@import url("styles/metricas.css");
+@import url("styles/talentos.css");
+@import url("styles/vagas.css");
+@import url("styles/colaboradores.css");
+@import url("styles/rodape.css");
+
+:root {
+    --cor-de-destaque: #8E2424;
+    --cor-de-texto: #101828;
+    --cor-de-paragrafo: #667085;
+    --cor-do-texto-da-logo: #3A404E;
+    --cor-de-fundo: #ffffff;
+    --cor-de-fundo2:  #8E24240D;
+    --cor-de-fundo3: #C3191908;
+    --cor-de-borda:#EAECF0;
+    --background-footer: #F9FAFB;
+    --borda-footer:#D0D5DD;
+    --fonte-principal: "Inter";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+

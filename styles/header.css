@@ -1,0 +1,48 @@
+.cabecalho {
+    height: 15vh;
+    margin: 7rem;
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    cursor:default;
+    
+}
+
+.cabecalho__secao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.cabecalho__link {
+
+    color: var(--cor-de-destaque);
+    text-decoration: none;
+    font-weight: 600;
+   
+}
+
+.cabecalho__link:hover {
+    color: var(--cor-de-fundo);
+    background-color: var(--cor-de-destaque);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-de-texto);
+    font-weight: 600;
+    font-size: 48px;
+    margin:1.5rem
+}
+
+
+.cabecalho__paragrafo {
+    cursor:default;
+    color: var(--cor-de-paragrafo);
+   font-size: 27px
+}
+
+
+
